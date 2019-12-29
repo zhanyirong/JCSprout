@@ -2,6 +2,7 @@
 
   - [ArrayList/Vector](collections/ArrayList.md)
   - [LinkedList](collections/LinkedList.md)
+  - [HashMap](collections/HashMap.md)
   - [HashSet](collections/HashSet.md)
   - [LinkedHashMap](collections/LinkedHashMap.md)
 
@@ -15,6 +16,9 @@
   - [ConcurrentHashMap 的实现原理](thread/ConcurrentHashMap.md)
   - [如何优雅的使用和理解线程池](thread/ThreadPoolExecutor.md)
   - [深入理解线程通信](thread/thread-communication.md)
+  - [一个线程罢工的诡异事件](thread/thread-gone.md)
+  - [线程池中你不容错过的一些细节](thread/thread-gone2.md)
+  - [『并发包入坑指北』之阻塞队列](thread/ArrayBlockingQueue.md)
 
 - JVM
 
@@ -26,6 +30,7 @@
   - [你应该知道的 volatile 关键字](jvm/volatile.md)
   - [一次内存溢出排查优化实战](jvm/OOM-Disruptor.md)
   - [一次 HashSet 所引起的并发问题](jvm/JVM-concurrent-HashSet-problem.md)
+  - [一次生产 CPU 100% 排查优化实践](jvm/cpu-percent-100.md)
 
 - 分布式
 
@@ -39,10 +44,9 @@
   - [Spring Bean 生命周期](frame/spring-bean-lifecycle.md)
   - [Spring AOP 的实现原理](frame/SpringAOP.md) 
   - [Guava 源码分析（Cache 原理）](frame/guava-cache.md)
-  - [轻量级 HTTP 框架](frame/cicada.md)
-  - [Kakfa produce 源码分析](frame/kafka-product.md)
-  - SpringBoot 启动过程
-  - Tomcat 类加载机制
+  - [Kafka produce 源码分析](frame/kafka-product.md)
+  - [Kafka 消费实践](frame/kafka-consumer.md)
+
 
 - 架构设计
 
@@ -55,19 +59,24 @@
   - [MySQL 索引原理](db/MySQL-Index.md)
   - [SQL 优化](db/SQL-optimization.md)
   - [数据库水平垂直拆分](db/DB-split.md)
+  - [一次分表踩坑实践的探讨](db/sharding-db.md)
 
 - 数据结构与算法
 
   - [常见算法](algorithm/common-algorithm.md)
-  - [一致性 Hash 算法](algorithm/Consistent-Hash.md)
+  - [一致性 Hash 算法原理](algorithm/Consistent-Hash.md)
+  - [一致性 Hash 算法实践](algorithm/consistent-hash-implement.md)
   - [限流算法](algorithm/Limiting.md)
   - [动手实现一个 LRU cache](algorithm/LRU-cache.md)
+  - [亿级数据中判断数据是否不存在](algorithm/guava-bloom-filter.md)
 
 
 - Netty 相关
 
   - [SpringBoot 整合长连接心跳机制](netty/Netty(1)TCP-Heartbeat.md)
   - [从线程模型的角度看 Netty 为什么是高性能的？](netty/Netty(2)Thread-model.md)
+  - [自己实现一个轻量级 HTTP 框架](netty/cicada.md)
+  - [为自己搭建一个分布式 IM(即时通讯) 系统](netty/cim.md)
 
 - 附加技能
 
